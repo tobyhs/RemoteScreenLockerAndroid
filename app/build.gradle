@@ -33,6 +33,17 @@ android {
             versionNameSuffix '-debug'
         }
     }
+
+    testOptions {
+        unitTests {
+            all {
+                systemProperty 'robolectric.dependency.repo.url', 'https://repo1.maven.org/maven2'
+                systemProperty 'robolectric.dependency.repo.id', 'maven'
+            }
+
+            includeAndroidResources = true
+        }
+    }
 }
 
 dependencies {
