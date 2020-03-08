@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect fill="white" width="100%" height="100%" rx="16" ry="16" />
+
+  <!-- screen/monitor -->
+  <rect stroke="black" stroke-width="4" fill="#6688ff" x="14" y="12" width="100" height="80" />
+  <rect fill="black" x="60" y="92" width="8" height="16" />
+  <rect fill="black" x="48" y="108" width="32" height="8" />
+
+  <!-- lock -->
+  <circle stroke="#bbbbbb" stroke-width="6" fill="none" cx="64" cy="44" r="16" />
+  <rect fill="#dddd00" x="40" y="44" width="48" height="32" rx="4" />
+</svg>
