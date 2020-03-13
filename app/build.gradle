@@ -86,6 +86,13 @@ dependencies {
 
     implementation 'com.github.tobyhs:rxsecretary:0.1.0'
     implementation 'com.github.tobyhs:rxsecretary-android:0.1.0'
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    final def retrofitVersion = '2.7.2'
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     
     testImplementation 'junit:junit:4.12'
     testImplementation 'androidx.test:core:1.2.0'
