@@ -72,6 +72,7 @@ dependencies {
     implementation "androidx.room:room-rxjava2:$roomVersion"
 
     final def lifecycleVersion = '2.2.0'
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
 
     final def daggerVersion = '2.26'
