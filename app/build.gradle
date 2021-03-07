@@ -66,17 +66,17 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.core:core-ktx:1.2.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
-    final def roomVersion = '2.2.4'
+    final def roomVersion = '2.2.6'
     implementation "androidx.room:room-runtime:$roomVersion"
     kapt "androidx.room:room-compiler:$roomVersion"
     implementation "androidx.room:room-rxjava2:$roomVersion"
 
-    final def lifecycleVersion = '2.2.0'
+    final def lifecycleVersion = '2.3.0'
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
 
@@ -89,22 +89,22 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxjava:2.2.18'
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
 
-    implementation 'com.github.tobyhs:rxsecretary:0.1.0'
-    implementation 'com.github.tobyhs:rxsecretary-android:0.1.0'
+    implementation 'com.github.tobyhs:rxsecretary:0.2.0'
+    implementation 'com.github.tobyhs:rxsecretary-android:0.2.0'
 
     implementation 'com.google.code.gson:gson:2.8.6'
 
-    final def retrofitVersion = '2.7.2'
+    final def retrofitVersion = '2.9.0'
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
     
-    testImplementation 'junit:junit:4.12'
-    testImplementation 'androidx.test:core:1.2.0'
-    testImplementation 'androidx.test.ext:junit:1.1.1'
+    testImplementation 'junit:junit:4.13'
+    testImplementation 'androidx.test:core:1.3.0'
+    testImplementation 'androidx.test.ext:junit:1.1.2'
     testImplementation 'io.mockk:mockk:1.10.6'
     testImplementation 'org.robolectric:robolectric:4.5.1'
 
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }
